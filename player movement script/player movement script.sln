@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8CDA8601-F8DC-C659-CA42-821580F181EC}") = "player movement script", "Assembly-CSharp.csproj", "{584C62AE-906A-B724-DFCE-3D38E7AE77FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{584C62AE-906A-B724-DFCE-3D38E7AE77FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584C62AE-906A-B724-DFCE-3D38E7AE77FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584C62AE-906A-B724-DFCE-3D38E7AE77FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584C62AE-906A-B724-DFCE-3D38E7AE77FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
