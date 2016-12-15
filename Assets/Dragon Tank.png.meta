@@ -1,0 +1,121 @@
+fileFormatVersion: 2
+guid: 962fa98923ca06f4ba6b3946095b1e2d
+timeCreated: 1481339167
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dragon Tank_0
+    21300002: Dragon Tank_1
+    21300004: Dragon Tank_2
+    21300006: Dragon Tank_3
+    21300008: Dragon Tank_4
+    21300010: Dragon Tank_5
+    21300012: Dragon Tank_6
+    21300014: Dragon Tank_7
+    21300016: Dragon Tank_8
+    21300018: Dragon Tank_9
+    21300020: Dragon Tank_10
+    21300022: Dragon Tank_11
+    21300024: Dragon Tank_12
+    21300026: Dragon Tank_13
+    21300028: Dragon Tank_14
+    21300030: Dragon Tank_15
+    21300032: Dragon Tank_16
+    21300034: Dragon Tank_17
+    21300036: Dragon Tank_18
+    21300038: Dragon Tank_19
+    21300040: Dragon Tank_20
+    21300042: Dragon Tank_21
+    21300044: Dragon Tank_22
+    21300046: Dragon Tank_23
+    21300048: Dragon Tank_24
+    21300050: Dragon Tank_25
+    21300052: Dragon Tank_26
+    21300054: Dragon Tank_27
+    21300056: Dragon Tank_28
+    21300058: Dragon Tank_29
+    21300060: Dragon Tank_30
+    21300062: Dragon Tank_31
+    21300064: Dragon Tank_32
+    21300066: Dragon Tank_33
+    21300068: Dragon Tank_34
+    21300070: Dragon Tank_35
+    21300072: Dragon Tank_36
+    21300074: Dragon Tank_37
+    21300076: Dragon Tank_38
+    21300078: Dragon Tank_39
+    21300080: Dragon Tank_40
+    21300082: Dragon Tank_41
+    21300084: Dragon Tank_42
+    21300086: Dragon Tank_43
+    21300088: Dragon Tank_44
+    21300090: Dragon Tank_45
+    21300092: Dragon Tank_46
+    21300094: Dragon Tank_47
+    21300096: Dragon Tank_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dragon Tank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 469
+        height: 608
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
