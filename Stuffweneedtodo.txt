@@ -1,9 +1,19 @@
-﻿Health and power move bar-
-Bow and sword-
-Level design-
-Boss-
-Evil minions-
-Player movement-
-Main menu-
+Health and power move bar-Rees
+Bow and sword-Rees
+Level design-Justin, Grady
+Boss-Lucas
+Evil minions-Rees
+Player movement-Rees
+Main menu-Rees
 High score-
 Health pack/shooting star-
+Finalize plot -
+Opening cutscene - 
+Character appearance - 
+Stats and combat - 
+Physics - 
+Debug mode - 
+Graphics - Justin, Kevin
+Victory Screen - 
+Game Over Screen - 
+Lives - 
