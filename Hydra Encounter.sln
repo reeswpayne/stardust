@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydra Encounter", "Hydra Encounter.csproj", "{8FAFF10B-4FCD-6925-367D-DAB0D2C1ABC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydra Encounter.Editor", "Hydra Encounter.Editor.csproj", "{376FC946-E840-063C-0268-81C27D43A22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAFF10B-4FCD-6925-367D-DAB0D2C1ABC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAFF10B-4FCD-6925-367D-DAB0D2C1ABC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAFF10B-4FCD-6925-367D-DAB0D2C1ABC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAFF10B-4FCD-6925-367D-DAB0D2C1ABC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376FC946-E840-063C-0268-81C27D43A22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376FC946-E840-063C-0268-81C27D43A22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376FC946-E840-063C-0268-81C27D43A22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376FC946-E840-063C-0268-81C27D43A22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
