@@ -5,15 +5,17 @@ public class Player : MonoBehaviour {
 
     // Variables
     public GameObject bullet;
+    public GameObject sword;
     float timer = 120;
 
+
     // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    void Start() {
+
+    }
+
+    // Update is called once per frame
+    void Update() {
         timer += 1;
         if (timer >= 120)
         {
@@ -24,4 +26,5 @@ public class Player : MonoBehaviour {
             }
         }
     }
+
 }
