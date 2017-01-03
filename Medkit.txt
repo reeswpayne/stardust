@@ -1,0 +1,15 @@
+using UnityEngine;
+ using System.Collections; 
+ public class HealthTrigger : MonoBehaviour { 
+   //Use this for initilization 
+   void Start () { } // Update is called once per frame
+   void Update () { }
+ 
+   void OnTriggerEnter(Collider other) { 
+     GameObject Player = GameObject.Find("Player");
+     PlayerHealth playerhealth = Player.GetComponent(); 
+     playerhealth.curHealth += 0.4; 
+     Destroy (gameObject); 
+     audio.Play();
+   }
+
