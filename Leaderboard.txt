@@ -1,0 +1,94 @@
+using UnityEngine;
+using UnityEngine.SocialPlatforms;
+using System.Collections;
+
+public class ExampleClass : MonoBehaviour {
+
+// Use this for initialization
+void Start () {
+ILeaderboard leaderboard = Social.CreateLeaderboard();
+leaderboard.id = "Leaderboard012";
+leaderboard.LoadScores(result =>
+{
+Debug.Log("Received " + leaderboard.scores.Length + " scores");
+foreach (IScore score in leaderboard.scores)
+Debug.Log(score);
+});
+}
+
+// Update is called once per frame
+void Update () {
+
+}
+}
+using UnityEngine;
+using UnityEngine.SocialPlatforms;
+using System.Collections;
+
+public class Example : MonoBehaviour {
+ILeaderboard m_Leaderboard;
+
+void DoLeaderboard () {
+m_Leaderboard = Social.CreateLeaderboard();
+m_Leaderboard.id = "Leaderboard01";
+m_Leaderboard.LoadScores(result => DidLoadLeaderboard(result));
+}
+
+void DidLoadLeaderboard (bool result) {
+Debug.Log("Received " + m_Leaderboard.scores.Length + " scores");
+foreach (IScore score in m_Leaderboard.scores)
+Debug.Log(score);
+}
+}
+
+
+using UnityEngine;
+using System.Collections;
+using UnityEngine.Audio;
+
+public class CombatMusicControl : MonoBehaviour {
+
+
+    public AudioMixerSnapshot outOfCombat;
+    public AudioMixerSnapshot inCombat;
+    public AudioClip[] stings;
+    public AudioSource stingSource;
+    public float bpm = 128;
+
+
+    private float m_TransitionIn;
+    private float m_TransitionOut;
+    private float m_QuarterNote;
+
+    // Use this for initialization
+    void Start () 
+    {
+        m_QuarterNote = 60 / bpm;
+        m_TransitionIn = m_QuarterNote;
+        m_TransitionOut = m_QuarterNote * 32;
+
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("CombatZone"))
+        {
+            inCombat.TransitionTo(m_TransitionIn);
+            PlaySting();
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("CombatZone"))
+        {
+            outOfCombat.TransitionTo(m_TransitionOut);
+        }
+    }
+
+    void PlaySting()
+    {
+        int randClip = Random.Range (0, stings.Length);
+        stingSource.clip = stings[randClip];
+        stingSource.Play();
+    }
