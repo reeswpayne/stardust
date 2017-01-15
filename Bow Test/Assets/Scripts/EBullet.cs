@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EBullet : MonoBehaviour
 {
+    public Transform target;
 
     // Use this for initialization
     void Start()
@@ -13,8 +14,9 @@ public class EBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * Time.deltaTime * 10);
+        {
+            transform.Translate(Vector3.left * Time.deltaTime * 10);
 
+        }
     }
-
 }
